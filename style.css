@@ -195,13 +195,21 @@ p{
 }
 
 @media(min-width:700px){
+
     .card__stats{
         width: 100%;
+        
     flex-direction: row;
     justify-content: space-between;
+    padding-right: 2em;
     }
+
     .card__stat{
-        margin: 2em 1em 0em;
+        margin: 2em  0em;
+    }
+
+    .card__stat p{
+        font-size: 12px;
     }
 }
 
