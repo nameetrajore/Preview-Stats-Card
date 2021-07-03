@@ -119,6 +119,7 @@ p{
     background-color:var(--clr-card);
     margin:2em;
     border-radius: 5px;
+    min-width: 375px;
 }
 
 @media(min-width:700px){
